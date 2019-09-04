@@ -1,0 +1,306 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{\fontsize{25}{15}\selectfont Abhimanyue}{Singh Tanwar}{
+{Interested in People, Algorithms, AI and Full Stack Software Development. }\\
+\vspace{
+\href{mailto:singhabhimanyu186@gmail.com}{singhabhimanyu186@gmail.com} | +852-65719762 | GitHub:\href{https://github.com/abhimanyu891998}{\custombold{abhimanyu891998}} | Linkedin: \href{https://www.linkedin.com/in/abhimanyue-singh-tanwar-30a424130/}{\custombold{abhimanyue}}
+}
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.35\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of Hong Kong}
+\descript{BEng in Computer Science \\ (Finance Minor)}
+\location{Expected May 2020}
+{Highest Slab of HKU Entrance Scholarship (\custombold{125\%}) |}
+{Dean's Honors List | }{ Simon KY Lee Hall Award for Academic Achievement.}
+
+\sectionsep
+
+\subsection{MVM School}
+\location{Grad. May 2016 |  Chennai, India}
+{\textbf{\custombold{97.8\%}} with PCM and CompSc in All India Senior School Certificate Examination }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Achievements}
+\custombold{Champion - Microsoft Imagine Hackathon 2018}\\
+{Developed a ML based credit scoring platform on a consortium blockchain.}\\
+\vspace{1.5 mm}
+\custombold{2nd Runner Up - HackUST 2019}\\
+{Developed a mobile-app for on-demand staffing for front-line jobs
+in 28 hours. Secured third amongst 100
+teams in one of the biggest hackathons in
+Asia.}\\
+\vspace{1.5 mm}
+\custombold{Cyberport University Partnership Program 2019}\\
+{Developed a software for decentralised
+identity verification process helping in
+optimising KYC process. Received 
+fully-sponsored fintech executive education \\at \textbf{\custombold{Booth School of
+Business, Chicago.}}}\\
+\vspace{1.5 mm}
+\custombold{Laidlaw Scholar 2018}\\
+{Amongst top 6 students who were granted
+a scholarship worth HKD 46000 for research
+internship at \custombold{UCL, London}.}\\
+\vspace{1.5 mm}
+\custombold{Microsoft Student Partner - 2018}\\
+{Worked on \custombold{Azure} platform to build
+solutions for increasing the knowledge
+about Microsoft products amongst
+university students.}
+\sectionsep
+
+
+
+
+
+% \custombold{Top 4 - Code For Good, JP Morgan, Hong Kong}\\
+%  {Amongst the top 4 teams for developing an interactive web application for MIND NGO in Hong Kong as a part of 8 Hour Rapid Hackathon.}
+
+
+
+% \custombold{Laidlaw Scholar 2018}\\
+%  {Amongst top 6 students who were granted a stipend worth \custombold{HKD 46000}  for research internship at UCL, London.}
+
+ 
+% \custombold{Runner up(Smart Mobility Category) Smart City Hackathon, Hong Kong 2018}\\
+%  {Project Movabilityfor optimising allocation of resources for disabled people in HK using the dataset from Rehab Bus Service, Hong Kong.}
+%  \sectionsep
+ 
+%  \custombold{Microsoft Student Partner 2018}\\
+
+%  \sectionsep
+% \custombold{Simon KY Lee Hall Award for Academic Achievement 2017}\\
+%  \sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+% \subsection{Graduate}
+% Advanced Machine Learning \\
+% Open Source Software Engineering \\
+% Advanced Interactive Graphics \\
+% Compilers + Practicum \\
+% Cloud Computing \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+% Information Retrieval \\
+% Operating Systems \\
+% Artificial Intelligence + Practicum \\
+% Functional Programming \\
+% Computer Graphics + Practicum \\
+% {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+% Unix Tools and Scripting \\
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\location{Programming Languages:}
+C++ \textbullet{}   Javascript \textbullet{} Python \textbullet{} Java  \textbullet{}  Haskell \\
+\vspace{1 mm}
+\location{Web Development and Databases:}
+React(js/native) \textbullet{}   Node.JS  \textbullet{} MongoDB \textbullet{} SQL  \textbullet{}  Express \textbullet{}  Django \textbullet{}  HTML5 \textbullet{}  CSS\\
+\vspace{1 mm}
+\location{Tools:}
+Git \textbullet{}   Firebase \textbullet{} Azure \textbullet{} Unity  \\
+\vspace{1 mm}
+\location{Machine Learning:}
+Scikit Learn \textbullet{} Pytorch \textbullet{} Tensorflow 
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.64\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{JPMorgan Chase \& Co.}
+\descript{| Software Engineer Intern }
+\location{June 2019 – August 2019 | Hong Kong}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Worked with Equities Prime brokerage team to create a client report-engine using \custombold{React.JS and Bottle.py}. Migrated the existing stack in \custombold{Java and C\#} to a web based platform in \custombold{Python and Typescript}.
+\end{tightemize}
+\begin{tightemize}\item Automated and Modularized the existing process ,reducing report generation and query execution time by over \custombold{35 \%}.
+\end{tightemize}
+\sectionsep
+\runsubsection{FREEHUNTER}
+\descript{| Software Developer }
+\location{January 2019 – May 2019 | Hong Kong}
+\begin{tightemize}\item Involved with the backend stack of web and mobile (React Native) platforms. Worked on \custombold{MERN (Mongo,Express,React and Node)} stack for developing web infrastructure of the company.
+\end{tightemize}
+\begin{tightemize}\item Deployed \custombold{EdgeRank} algorithm optimising the feeds by \custombold{40\%} and reducing feed loading time by \custombold{55\%}
+\end{tightemize}
+\sectionsep
+\runsubsection{University College London}
+\descript{| Summer Research Intern }
+\location{June 2018 – August 2018 | London, UK | \href{https://github.com/abhimanyu891998/CS-Trackulum}{\custombold{Github Repo Link}}}
+\begin{tightemize}\item Worked on project \custombold{”How are we teaching Computer Science?”}. Designed a database architecture in \custombold{mySQL} using \custombold{LAM} stack suitable for querying multiple data points related to CS curriculum of over 100 top universities.
+\end{tightemize}
+\begin{tightemize}\item Built a full stack web portal with \custombold{nodeJS,Express, EJS, MongoDB and mySQL} to directly interact,populate and query the database.
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECTS AND ENTREPRENEURIAL WORKS}
+\runsubsection{Clarifeye}
+\descript{| HKD 100,000 SEED FUND}
+Software for recruitment industry to simplify initial screening process
+using a scoring based approach to predict the worthiness of an applicant
+using Machine Learning. Used \custombold{SBS (Sequential Backward Selection)}
+approach to identify most optimal features in a candidate’s application
+and \custombold{SVM} for classifying candidates. 
+\sectionsep
+\\
+\runsubsection{AssignTrack@HKU}
+\descript{| Chrome Extension for HKU students with 470+ daily users | \href{https://github.com/abhimanyu891998/Assignment-Tracker-HKU}{\custombold{Github Repo Link}} }
+Automatically reads assignment details from university portal and sorts
+into a to-do list, helping students keep a track of assignments. Keeps a
+track of submission status for every user and sorts assignments by
+submission status. Extension added to \custombold{official HKU Portal}.
+\sectionsep
+
+\runsubsection{BIG TWO}
+\descript{| Multiplayer Game in JAVA | \href{https://github.com/abhimanyu891998/Big-Two}{\custombold{Github Repo Link}}}
+A full GUI enabled big two card game written in JAVA, supports multi player functionality by enabling socket networking and multi threading.\\
+\sectionsep
+\vspace{0.1 mm}
+
+Full list of projects at \href{https://github.com/abhimanyu891998}{\custombold{github.com/abhimanyu891998}}
+\vspace{1 mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{RELEVANT COURSEWORK}
+\location{Computer Science:}
+Data Structures & Algos (A) \textbullet{} Machine Learning (A+) \textbullet{} Operating Systems \textbullet{} Computer \& Commn Networks  \textbullet{}  OOP and Java (A-) \textbullet{} Software Engineering(A-) \\
+\vspace{1 mm}
+\location{Finance:}
+Intro Micro \& Macro Economics \textbullet{}   Corporate Finance \textbullet{} Financial Accounting  
+% \begin{tabular}{rll}
+% % 2014	     & top 52/2500  & KPCB Engineering Fellow\\
+% % % 2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
+% % % 2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+% % % 2013	     & National  & Jump Trading Challenge Finalist\\
+% % % 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+% % % % 2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+% % % % 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+% % % 2010     & National & Comp. Soc. of India's National Programming Contest\\
+% % \end{tabular}
+
+\sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     SOCIETIES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+% 2014   & National   & The Global Leadership and Education Forum (tGELF)\\
+% 2012   &  National  & Golden Key International Honor Society\\
+% 2012   &  National   & National Society of Collegiate Scholars\\
+% \end{tabular}
+% \sectionsep
+
+\end{minipage} 
+\end{document}
